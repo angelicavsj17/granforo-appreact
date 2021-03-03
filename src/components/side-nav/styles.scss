@@ -1,0 +1,71 @@
+.sidebar{
+    background-color: #fe4914;
+        align-items: center;
+position: absolute;
+right: 10px;
+top:0;
+height: 70px; /*poner al tamaño del sidebar */
+display:grid;
+align-items: center;
+justify-content: right;
+
+}
+
+
+.icon{
+    background-color: #fe4914;
+    color: #fe4914;
+    stroke: white;
+    stroke-width: 15;
+    font-size: 40px;
+    width: 10%;
+    padding: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    }    
+    
+.icon .bars:hover{
+    background-color: #fe4914;
+    color: #fe4914;
+    stroke: rgb(218, 97, 66);
+    stroke-width: 10;
+    }
+        
+.icon .bars{
+    background-color: #fe4914;
+    color: #ffffff;
+    stroke:#fe4914;
+    stroke-width: 50;
+    }
+
+    .bars{
+        padding: 0 5px 0 5px;
+    }    
+
+    .show{
+        display:block;
+        color: #ffffff;
+    background-color: #fe4914;
+        position: absolute;
+right: 0px;
+width: 200px;
+top:70px; /*mismo  tamaño del navbar*/
+    }
+
+    .hide{
+        display:none;
+    }
+
+    .show ul{
+        padding-left: 2px;
+    }
+
+    .show li{
+        list-style: none;
+        padding: 1px 1px 1px 1px;
+        margin: 1px 1px 1px 1px;
+        font-size: 15px;
+        border-bottom: 1px white solid;
+    }
+/* -----------------Menu desplegable-------------- */

@@ -1,0 +1,42 @@
+.App {
+    max-height: 400px;
+    max-height: 400px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px rgb(21, 190, 78);
+    height: 500%;
+}
+
+button.rec-dot {
+    background-color: #fe4914;
+    box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+}
+
+
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+    box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+}
+
+
+button.rec-dot {
+    background-color: #fe4914;
+    box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+}
+
+
+
+/* button.rec-arrow-right{
+    color: #fe4914;
+    
+  } */

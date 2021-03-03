@@ -1,0 +1,36 @@
+.socialNetwork {
+	width: 50%;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.googleBtn {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: white;
+	background-color: #566add;
+	height: 5vh;
+	opacity: 0.9;
+}
+
+.facebookBtn {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: white;
+	background-color: #142ec3;
+	height: 37px;
+	position: relative;
+	top: 10px;
+	opacity: 0.9;
+}
+
+.googleBtn i, .facebookBtn i {
+	font-size: 27px;
+}
+
+.googleBtn p, .facebookBtn p {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,37 @@
+
+hr {
+  background-color: #fe4914;
+}
+
+.item2 { 
+  font-size: 30px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 25vw;
+
+
+  .upsize {
+    transform: scale(1.5);
+     transition: transform 1000ms ease-in-out;  
+  }
+  
+  .border{
+    border: 5px  solid red !important;
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+    padding: 1vw 1vw 1vw 1vw; 
+    width: 27vw;
+    margin-top: -1.5vw;
+  }
+
+  .img2{ 
+    position: relative;
+    top:0px;
+    z-index:5;
+    width: 60%;
+  }
+
+
+} 

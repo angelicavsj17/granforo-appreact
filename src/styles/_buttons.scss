@@ -1,0 +1,124 @@
+.redButton{
+    background-color: #fe4914;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    max-height: 40px;
+    min-width:188px;
+    max-width:220px;
+    text-align: center;
+}
+
+.redButton:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.redButton:active{
+background-color: saddlebrown;
+}
+
+
+
+.redButton3{
+    background-color: #fe4914;
+    color: white;
+    padding: 15px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border: rgb(255, 255, 255);
+    
+    
+}
+
+.redButton3:hover{
+    background-color: red;
+    cursor: pointer;
+    
+}
+
+.redButton3:active{
+background-color: saddlebrown;
+}
+
+/* Crear eventos */
+.redButton2{
+    background-color: #fe4914;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 20px;
+    max-height: 40px;
+    min-width: 150px;
+    text-align: center;
+    border: rgb(255, 255, 255);   
+}
+
+.redButton2:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.redButton2:active{
+background-color: saddlebrown;
+}
+
+/* boton Agregar foto  http://localhost:8080/crearEvento*/
+
+.grayButton{
+    background-color: #808080;
+    color: rgb(228, 228, 228);
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;  
+    border-radius: 5px;
+    max-height: 33px;
+    min-width:140px;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px!important;
+}
+
+.grayButton:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.grayButton:active{
+background-color: saddlebrown;
+}
+
+
+
+/* boton login  http://localhost:8080/login  facebbok  google */
+
+
+
+.grayButton2{
+    background-color: #000000;
+    color: rgb(228, 228, 228);
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;  
+    border-radius: 5px;
+    max-height: 33px;
+    min-width:120px;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px!important;
+}
+
+.grayButton2:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.grayButton2:active{
+background-color: saddlebrown;
+}
+
+.h5 {
+    color: black
+}

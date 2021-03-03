@@ -1,0 +1,56 @@
+.container-eventfive{
+
+    background-color: white;
+   font-weight: bold;
+}
+
+.texts-event-five {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 80px;
+    margin-top: 70px;
+     padding-top: 20px;
+     
+    
+}
+
+.container-cardseventfive{
+    margin-right: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    grid-auto-rows: minmax(100px);
+    text-align: center;
+}
+
+.card-eventFive{
+    height: 383;
+    width: 451;
+    background-color: #e2e2e2;
+    margin-bottom: 1px;
+    box-shadow: 1px 1px 1px 1px #979595;
+    border: solid white;
+
+}
+
+.platformEisy h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.bigButton{
+     color: white;
+     border-radius: 30px;
+     font-size: 40px;
+     background-color:  #fe4914;
+margin-top: 10px;
+border: none;
+
+ }
+
+
+

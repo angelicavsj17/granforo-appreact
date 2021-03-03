@@ -1,0 +1,60 @@
+
+.hide{
+  display: none;
+}
+
+.show{
+  display:block;
+}
+
+.redVerticalRight{
+  color:red;
+  height: 70%;
+  width: 2px;
+  margin: 0 1vw 0 1vw;
+}
+
+
+.boxCards{
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  text-align: center;  
+  padding: 5vw 5vw 2vw 5vw;
+} 
+
+.containBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.googleBtn {
+  background-color: red;
+}
+
+.containCard {
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  text-align: center;  
+} 
+
+
+    
+
+.tittleUsers {
+  font-size:40px;  
+  color: black;
+  font-weight: bold;
+    position: relative;
+    z-index:6;
+    bottom:0;
+    padding: 0 0 0 0;
+}
+
+.tittleUsers p{
+  margin:0;
+}
+
+.mostrar{
+  display:block;  
+}

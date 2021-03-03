@@ -1,0 +1,69 @@
+
+.formulario {
+	max-width:720px;
+	margin: 30px auto;
+	padding:0 10px 0 0px;
+
+	h3 {
+		font-weight: 600;
+	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.titulo{
+
+		font-size:24px;
+		text-align: center;
+		padding:0 0 30px;
+		font-weight:bold;
+	}
+
+	.field {
+		display: flex;
+		flex-direction: column;
+		margin-top:10px; 
+	}
+
+	input.aweform, select.aweform, textarea.aweform {
+		font-family:Arial,Tahoma,Sans-Serif; 
+		font-size:13px; 
+		line-height:18px;
+	}
+
+	input.aweform[type=text], input.aweform[type=email], input.aweform[type=password], textarea.aweform, select.aweform {
+		background:#e2e2e2;
+		width: 20rem;
+		border-radius: 15px 15px 15px 15px !important;
+		border-radius:3px;
+		border:1px solid #ccc;
+		color:#7e7e7e;
+		height:32px;
+		padding:5px 10px;
+	}
+
+	.lowerNew{
+   
+		display: flex;
+		justify-content: center;
+		padding-top: 20px;
+		
+	}
+	
+	.itemsLogin {
+	    display: flex;
+	    width: 100%;
+		justify-content: center;
+		
+		.item {
+			padding: 2rem;
+		}
+	}
+
+}
+
+    

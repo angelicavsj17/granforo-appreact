@@ -1,0 +1,584 @@
+.rightAlign {
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 60px;
+    background-color: transparent;
+}
+
+.centerAlign {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.leftAlign {
+    text-align: left;
+    padding-right: 320px;
+}
+
+.justifytext {
+    text-align: justify;
+}
+
+.bottom {
+    display: flex;
+    align-items: end;
+}
+
+.leftAlign2 {
+    text-align: left;
+    padding: 60px 100px 0 140px;
+}
+
+/*.... buscarEventosScreen.js... */
+.leftAlign3 {
+    text-align: left;
+    padding-left: 12%;
+
+}
+
+.leftAlign4 {
+    text-align: left;
+    padding-right: 348px;
+}
+
+
+
+.leftAlign2 {
+    text-align: left;
+    padding-right: 65px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+
+.tittle {
+    font-size: 30px;
+    color: white;
+}
+
+.tittle2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.tittle3 {
+    font-size: 50px;
+    color: #25388d;
+}
+
+.tittle4 {
+    font-size: 50px;
+    line-height: normal;
+}
+
+.tittle5 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    line-height: normal;
+}
+
+.tittle6 {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.tittle7 {
+    font-size: 30px;
+    color: #25388d;
+}
+
+.tittle8 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+.tittle9 {
+    font-size: 30px;
+    height: 20px;
+}
+
+.contents {
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    text-align: justify;
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contents1 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    text-align: left;
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contents2 {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: justify;
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contents3 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+
+}
+
+.contents5 {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: justify;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+.contents4 {
+    font-size: 25px;
+    color: #25388d;
+}
+
+.contents6 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    text-align: left;
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.contents7 {
+
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: justify;
+    width: 700px;
+    height: 100px;
+
+}
+
+.contents8 {
+
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.black {
+    color: black
+}
+
+.darkcolor {
+    color: #1e3143;
+}
+
+.bluetittle {
+    color: #143c8b;
+}
+
+.verysmall {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.white {
+    color: white;
+}
+/* --- imagenes de fondo */
+
+.boxPartOne {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 4.5fr 5.5fr;
+    color: white;
+
+}
+
+.larger {
+    height: 95vh;
+
+}
+
+hr {
+
+    height: 3px;
+    width: 100%;
+    background-color: #fe4914;
+}
+
+.boxPartOne2 {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding: 150px 0 30px;
+
+}
+
+
+/* imagenes centrales son 4  al inicio */
+
+.boxPartImg {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding: 0px 0 30px;
+
+}
+
+.boxPartOne3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+
+}
+
+/* mostar 3 imagenes tickets al final */
+
+.boxPartOne4 {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 160px 0 60px;
+}
+
+
+.leftSidePartOne {
+    color: white;
+}
+
+/* imagen computador con #2, izquierda */
+.leftSidePartComp {
+    color: white;
+    padding-top: 25%;
+}
+
+
+/* imagen computador con #4, izquierda */
+
+.leftSidePartComp2 {
+    color: white;
+    padding-top: 10%;
+}
+
+
+
+
+/* Parte superior pagina. */
+.rightSidePartOne {
+
+    padding: 5% 15% 10% 0;
+    color: white;
+}
+
+
+
+/* Texto primer carrusel fondo azul */
+.rightSidePartCar {
+
+    padding: 10% 0% 2% 10%;
+
+}
+
+.rightSidePartCar2 {
+
+
+    padding: 5% 0% 2% 10%;
+
+}
+
+.rightSidePart2 {
+    padding: 25% 15% 10% 0;
+    color: white;
+}
+
+
+/* imagenes computadores con numeros */
+.rightSidePartComp {
+    padding: 25% 5% 10% 0;
+    color: white;
+
+
+}
+
+.rightSidePartOne2 {
+    padding: 35% 8% 10% 0;
+    color: white;
+
+}
+
+
+.rightSidePartOne3 {
+    padding: 25% 70% 10% 0;
+    color: white;
+
+}
+
+
+.upperSidePartOne {
+
+    /* padding-right:50%; */
+    height: 25vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* Si la linea blanca queda en la imagen de fondo, quitarla */
+}
+
+.middleSidePartOne {
+    height: 30vh;
+    text-align: end;
+}
+
+.middleSidePartOne2 {
+    height: 30vh;
+    text-align: end;
+    padding-left: 60%;
+}
+
+
+.middleSidePartOne3 {
+
+    text-align: end;
+    padding-left: 40%;
+
+}
+
+.lowerSidePartOne {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lowerSidePartOne3 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+.lowerSidePartOne2 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 100px;
+
+}
+
+section {
+    display: block;
+}
+
+.text {
+
+    margin: 20px 0 50px 210px;
+    font-size: 24px;
+
+}
+
+/* --- video PC en marco */
+
+.btnVideo {
+    background: transparent;
+    border: 0px;
+    z-index: 11;
+    position: absolute;
+    margin: 220px 0 0 250px;
+}
+
+.videoPC {
+    position: absolute;
+    max-width: 655px;
+    padding: 115px 0 0 105px;
+    z-index: 6;
+
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+/* --- marcos */
+
+.Ipad {
+    position: absolute;
+    max-width: 670px;
+    padding: 100px 0 0 100px;
+    z-index: 8;
+
+}
+
+.Celular {
+    position: absolute;
+    max-width: 670px;
+    padding: 280px 0 0 500px;
+    z-index: 10;
+}
+
+
+
+.Celular1 {
+    height: 800px;
+    padding: 50px 0 0 300px;
+    z-index: 10;
+}
+
+
+
+.img {
+    max-height: 125px;
+}
+
+/* tres imagenes tickets final pagina */
+
+.img3 {
+    max-height: 700px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+.img4 {
+    max-height: 300px;
+}
+
+/* display grid :  Izquierda */
+
+.container {
+    display: grid;
+    grid-template-columns: 750px auto;
+    padding: 10px;
+
+
+
+}
+
+/* carousel de imagenes landing */
+.item3 {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+
+}
+
+/* display grid :  Izquierda */
+
+.Computador2 {
+    padding: 0% 0% 0% 17%;
+    width: 750px;
+    height: 300px;
+    margin: 10px 0 0 -100px;
+}
+
+
+.Computador1 {
+    padding: 0% 0% 0% 0%;
+    width: 550px;
+    height: 280px;
+
+    margin: 70px 0 0 -150px;
+
+}
+
+.Computador3 {
+    padding: 0% 0% 0% 0%;
+    width: 700px;
+    height: 300px;
+
+    margin: 70px 0 0 -150px;
+
+}
+
+.Computador4 {
+    padding: 0% 0% 0% 0%;
+    width: 650px;
+    height: 300px;
+
+    margin: 300px 0 0 100px;
+
+}
+
+
+
+/* user type component */
+
+.locateTittleUT {
+    padding-top: 150px;
+}
+
+.border {
+    border: 5px solid white !important;
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+}
+
+.img2 {
+    position: relative;
+    top: 0px;
+    z-index: 5;
+    width: 100%;
+}
+
+.item2 {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    width: 25vw;
+}
+
+.upsize {
+    /* width: 35vw !important;*/
+    transform: scale(1.5);
+    transition: transform 1000ms ease-in-out;
+
+}
+
+.tittleUsers {
+    font-size: 40px;
+    background-color: #fe4914;
+    position: relative;
+    z-index: 6;
+    bottom: 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.tittleUsers p {
+    margin: 0;
+}
+
+.mostrar {
+    display: block;
+}
+
+/* -----------------------end users type*/
+

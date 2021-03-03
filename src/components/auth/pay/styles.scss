@@ -1,0 +1,141 @@
+.containerPay {
+	display: flex;
+    background-color: #dcd6d6;
+    
+    .containPay {
+        width: 50%;
+        background-color: white;
+        padding: 30px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    
+        img {
+            width: 12%;
+        }
+
+        .payForm {
+            border: 2px solid rgb(4, 4, 131);
+            padding: 20px;
+        }
+
+        .initialForm {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .initialForm input {
+            width: 60%;
+            background-color: #e4e4e4;
+            border-radius: 10px;
+            height: 28px;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        .methodPay {
+            display: flex;
+            width: 55%;
+            align-items: center;
+            padding: 5px;
+        }
+        
+        .methodPay input[type="checkbox"] {
+            width: .8em;
+            height: .8em;
+            background-color: #e4e4e4;
+            border-radius: 50%;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+            -webkit-appearance: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        .methodPay input[type="checkbox"]:checked {
+            background-color: #fe4914;
+        }
+        
+        .optionPay {
+            width: 55%;
+            text-align: start;
+        }
+        
+        .methodPay h6 {
+            margin: 0;
+            text-transform: none;
+            position: relative;
+        } 
+
+        .readyBtn {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            padding-top: 20px;
+        }
+
+        .secure {
+            margin: 0;
+            padding-top: 20px;
+        }
+
+        .certificate {
+            font-size: 11px;
+            background-color: #ecebeb;
+            width: 80%;
+            padding: 0;
+            margin: 0;
+        }
+        
+    }
+
+    .cardShopping {
+        width: 46%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+        .cardBuy {
+            width: 100%;
+            margin: 0;
+        }
+
+        .cardDescription {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .cardDescription img {
+            height: 50px;
+        }
+    
+        .planBuy {
+            width: 80%;
+        }
+    
+        .priceEnd {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+        }
+    
+        .totalEnd {
+            padding-right: 10px;
+        }
+    
+        .termsPay {
+            padding-top: 50px;
+        }
+        
+        .termsPay p {
+            margin: 0;
+            padding: 0;
+              line-height: 15px;
+            font-size: 12px;
+            background-color: #ececec;
+        }
+    }
+    
+}

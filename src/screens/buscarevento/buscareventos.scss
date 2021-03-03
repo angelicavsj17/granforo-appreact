@@ -1,0 +1,289 @@
+/*............... buscarEventosScreen.js........http://localhost:8080/eventos..... */
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "calendar one one"
+        "calendar two two"
+        "calendar three three"
+        "calendar four four"
+        "filters four four"
+        "filters five five"
+        "filters five five"
+        "filters six six"
+        "button six six"
+        "button seven seven";
+    grid-template-columns: 302px 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    background-color: #e6e6e6;
+}
+.container>div {
+    /* border: 1px dashed rgb(207, 19, 19); */
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.container>div p {
+    font-size: 200%;
+    margin-bottom: 0%;
+}
+.calendar {
+    grid-area: calendar;
+    padding-top: 10%;
+    width: 120%;
+}
+.one {
+    grid-area: one;
+    text-align: right;
+}
+.filters {
+    grid-area: filters;
+
+}
+.two {
+    grid-area: two;
+    align-self: flex-end;
+    margin-left: 50%;
+    width: 70%;
+}
+.two button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #2a3991;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+}
+.two input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 60%;
+}
+.two button:hover {
+    background: #384ec7;
+}
+.three {
+    grid-area: three;
+    font-size: 300%;
+    padding-bottom: 3%;
+
+}
+.four {
+    grid-area: four;
+
+}
+.five {
+    grid-area: five;
+}
+.button {
+    grid-area: button;
+    text-align: center;
+
+}
+.button input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border-radius: 20px;
+    width: 70%;
+    border: none;
+}
+.six {
+    grid-area: six;
+}
+.seven {
+    grid-area: seven;
+}
+/* ----- Propiedades boton  */
+.lowerSidePartOne {
+    display: flex;
+    justify-content: center;
+    padding-top: -20%;
+    padding-bottom: 10%;
+}
+.container hr {
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+}
+.filters ul {
+    background-color: #dedede;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+// carrusel
+
+.transparent{
+background-color:rgba(0, 0, 255, 0);
+}
+
+.heightC{
+    height: 800px;
+}
+
+.card h1{
+background-color:#fe4914;
+text-align: center;
+color:white;
+}
+
+.card p{
+font-size:15px;
+color:white;
+padding-left: 8%;
+background-color:#2a3991;
+}
+
+
+.card h7{
+font-size:15px;
+text-align: center;
+/* background-color: transparent !important; */ 
+}
+
+// buttons 
+
+.closeButton {
+    background-image: url("../../assets/img/fondos/closeButton2.png");
+    min-height: 50px;
+    max-height: 100px;
+    min-height: 50px;
+    max-width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.redButton {
+    background-color: #fe4914;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    max-height: 40px;
+    min-width: 188px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.redButton:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.redButton:active {
+    background-color: saddlebrown;
+}
+
+
+/* Buscar eventos http://localhost:8080/eventos  */
+
+
+.redButton3 {
+    background-color: #fe4914;
+    color: white;
+    padding: 15px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 61px;
+    width: 100%;
+    text-align: center;
+    border: rgb(255, 255, 255);
+
+
+}
+
+.redButton3:hover {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.redButton3:active {
+    background-color: saddlebrown;
+}
+
+/* Crear eventos */
+.redButton2 {
+    background-color: #fe4914;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    max-height: 40px;
+    min-width: 170px;
+    text-align: center;
+    border: rgb(255, 255, 255);
+}
+
+.redButton2:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.redButton2:active {
+    background-color: saddlebrown;
+}
+
+/* boton Agregar foto  http://localhost:8080/crearEvento*/
+
+.grayButton {
+    background-color: #808080;
+    color: rgb(228, 228, 228);
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    max-height: 33px;
+    min-width: 140px;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px !important;
+}
+
+.grayButton:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.grayButton:active {
+    background-color: saddlebrown;
+}
+
+
+
+/* boton login  http://localhost:8080/login  facebbok  google */
+
+
+
+.grayButton2 {
+    background-color: #000000;
+    color: rgb(228, 228, 228);
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    max-height: 33px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px !important;
+}
+
+.grayButton2:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.grayButton2:active {
+    background-color: saddlebrown;
+}
+
+.h5 {
+    color: black
+}

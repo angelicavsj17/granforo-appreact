@@ -1,0 +1,63 @@
+.containerPlans {
+	background-color: rgb(233, 230, 230);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 100vh;
+    
+    .containPlans {
+        width: 22%;
+        height: 100%;
+        cursor: pointer;
+        user-select: none;
+        padding: 12px;
+    }
+
+    .containerPlan {
+        background-image: url('../../../assets/img/plans/planes.png');
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: 80% 80%;
+    }
+
+    .selectedPlan {
+        transform: scale(1.1);
+    }
+
+    .titlePlan {
+        width: 200px;
+        text-align: center;
+        height: 17%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .descriptionPlan {
+        background-color: white;
+        width: 80%;
+        text-align: center;
+        height: 47vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .pricePlan {
+        width: 200px;
+        text-align: center;
+    }
+}
+
+.nextBtn {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    right: 22px;
+
+}
